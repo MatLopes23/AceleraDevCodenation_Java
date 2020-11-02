@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.challenge.SpringChallengeApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.41 s <<< FAILURE! - in com.challenge.SpringChallengeApplicationTests
+contextLoads(com.challenge.SpringChallengeApplicationTests)  Time elapsed: 0.116 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.DuplicateMappingException: Table [acceleration] contains physical column name [created_at] referred to by multiple physical column names: [created_at], [createdAt]
+Caused by: org.hibernate.DuplicateMappingException: Table [acceleration] contains physical column name [created_at] referred to by multiple physical column names: [created_at], [createdAt]
+

@@ -1,0 +1,88 @@
+-------------------------------------------------------------------------------
+Test set: com.challenge.suite.ChallengeTestSuite
+-------------------------------------------------------------------------------
+Tests run: 102, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 0.877 s <<< FAILURE! - in com.challenge.suite.ChallengeTestSuite
+isEntityListener(com.challenge.suite.AccelerationTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+hasColumnCreatedAtWithAnnotationCreatedDate(com.challenge.suite.CandidateTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+isEntityListener(com.challenge.suite.CandidateTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+isEntityListener(com.challenge.suite.ChallengeTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+isEntityListener(com.challenge.suite.CompanyTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+isEntityListener(com.challenge.suite.SubmissionTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
+hasColumnNicknameNotNull(com.challenge.suite.UserTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at com.challenge.suite.UserTest.hasColumnNicknameNotNull(UserTest.java:101)
+
+hasColumnFullNameSize(com.challenge.suite.UserTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at com.challenge.suite.UserTest.hasColumnFullNameSize(UserTest.java:55)
+
+hasColumnNicknameSize(com.challenge.suite.UserTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at com.challenge.suite.UserTest.hasColumnNicknameSize(UserTest.java:109)
+
+hasColumnFullNameNotNull(com.challenge.suite.UserTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at com.challenge.suite.UserTest.hasColumnFullNameNotNull(UserTest.java:47)
+
+hasColumnNickname(com.challenge.suite.UserTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at com.challenge.suite.UserTest.hasColumnNickname(UserTest.java:94)
+
+hasColumnFullName(com.challenge.suite.UserTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at com.challenge.suite.UserTest.hasColumnFullName(UserTest.java:40)
+
+isEntityListener(com.challenge.suite.UserTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+
